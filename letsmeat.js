@@ -3976,14 +3976,15 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.fats.gotoAndStop(0);
 				self.sName.visible = false;
 				if (clickBtnHigh == true){
 					self.cow.slice1.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 				self.cow.slice1.gotoAndStop(0); // הנתח לא זוהר
+				self.fats.gotoAndStop(0);
+				}
 		
 			}
 			
@@ -4032,14 +4033,15 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.fats.gotoAndStop(0);
 				self.sName.visible = false;
 				if (clickBtnHigh == true){
 					self.cow.slice9.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 				self.cow.slice9.gotoAndStop(0); // הנתח לא זוהר
+				self.fats.gotoAndStop(0);
+				}			
 			}
 			
 		}
@@ -4082,14 +4084,15 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.fats.gotoAndStop(0);
 				self.sName.visible = false;
 			if (clickBtnHigh == true){
 				self.cow.slice3.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}		
-			else 
+			else {
 				self.cow.slice3.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+				self.fats.gotoAndStop(0);
+			}
 			}
 			
 		}
@@ -4133,13 +4136,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.fats.gotoAndStop(0);
 				if (clickBtnHigh == true){
 					self.cow.slice17.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 					self.cow.slice17.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.fats.gotoAndStop(0);
+				}			
 				self.sName.visible = false;
 			}
 		}
@@ -4187,13 +4191,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.medium.gotoAndStop(0);
 				if (clickBtnMedium == true){
 					self.cow.slice2.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 					self.cow.slice2.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.medium.gotoAndStop(0);
+				}			
 				self.sName.visible = false;
 			}
 		}
@@ -4236,13 +4241,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.medium.gotoAndStop(0);
 				if (clickBtnMedium == true){
 					self.cow.slice10.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 					self.cow.slice10.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.medium.gotoAndStop(0);
+				}			
 				self.sName.visible = false;
 			}
 		}
@@ -4285,13 +4291,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.medium.gotoAndStop(0);
 				if (clickBtnMedium == true){
 					self.cow.slice15.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 					self.cow.slice15.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.medium.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}	
 		}
@@ -4333,13 +4340,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.medium.gotoAndStop(0);
 				if (clickBtnMedium == true){
 					self.cow.slice18.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 					self.cow.slice18.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.medium.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}
 		}
@@ -4387,13 +4395,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.thin.gotoAndStop(0);
 				if (clickBtnThin == true){
 					self.cow.slice8.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}			
-				else
+				else{
 					self.cow.slice8.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.thin.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}
 		}
@@ -4442,13 +4451,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.thin.gotoAndStop(0);
 				if (clickBtnThin == true){
 					self.cow.slice11.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}
-				else
+				else{
 					self.cow.slice11.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.thin.gotoAndStop(0);
+				}
 			self.sName.visible = false;
 			}
 		}
@@ -4494,13 +4504,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.thin.gotoAndStop(0);
 				if (clickBtnThin == true){
 					self.cow.slice12.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}
-				else
+				else{
 					self.cow.slice12.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.thin.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}
 		}
@@ -4548,13 +4559,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.thin.gotoAndStop(0);
 				if (clickBtnThin == true){
 					self.cow.slice13.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}
-				else
+				else{
 					self.cow.slice13.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.thin.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}
 		}
@@ -4601,13 +4613,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.thin.gotoAndStop(0);
 				if (clickBtnThin == true){
 					self.cow.slice14.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}
-				else
+				else{
 					self.cow.slice14.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.thin.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}
 		}
@@ -4656,13 +4669,14 @@ if (reversed == null) { reversed = false; }
 			stage.cursor="auto";
 			if(partClicked==false){
 				self.leftside.text= "העבר את העכבר על הנתח כדי לגלות את שמו";
-				self.thin.gotoAndStop(0);
 				if (clickBtnThin == true){
 					self.cow.slice16.gotoAndStop(1);
 					self.leftside.text= "לחץ על אחד הנתחים  המודגשים למידע נוסף";
 				}
-				else
+				else{
 					self.cow.slice16.gotoAndStop(0); //הנתח הנבחר לא זוהר 
+					self.thin.gotoAndStop(0);
+				}
 				self.sName.visible = false;
 			}
 		}
@@ -4904,18 +4918,18 @@ lib.properties = {
 	opacity: 1.00,
 	webfonts: {},
 	manifest: [
-		{src:"images/Artwork31aiAssetscopy.png?1601322923703", id:"Artwork31aiAssetscopy"},
-		{src:"images/letsmeat_atlas_1.png?1601322923591", id:"letsmeat_atlas_1"},
-		{src:"images/letsmeat_atlas_2.png?1601322923592", id:"letsmeat_atlas_2"},
-		{src:"images/letsmeat_atlas_3.png?1601322923592", id:"letsmeat_atlas_3"},
-		{src:"images/letsmeat_atlas_4.png?1601322923592", id:"letsmeat_atlas_4"},
-		{src:"images/letsmeat_atlas_5.png?1601322923592", id:"letsmeat_atlas_5"},
-		{src:"images/letsmeat_atlas_6.png?1601322923592", id:"letsmeat_atlas_6"},
-		{src:"images/letsmeat_atlas_7.png?1601322923592", id:"letsmeat_atlas_7"},
-		{src:"images/letsmeat_atlas_8.png?1601322923592", id:"letsmeat_atlas_8"},
-		{src:"images/letsmeat_atlas_9.png?1601322923592", id:"letsmeat_atlas_9"},
-		{src:"images/letsmeat_atlas_10.png?1601322923593", id:"letsmeat_atlas_10"},
-		{src:"images/letsmeat_atlas_11.png?1601322923593", id:"letsmeat_atlas_11"}
+		{src:"images/Artwork31aiAssetscopy.png?1601324151586", id:"Artwork31aiAssetscopy"},
+		{src:"images/letsmeat_atlas_1.png?1601324151475", id:"letsmeat_atlas_1"},
+		{src:"images/letsmeat_atlas_2.png?1601324151475", id:"letsmeat_atlas_2"},
+		{src:"images/letsmeat_atlas_3.png?1601324151475", id:"letsmeat_atlas_3"},
+		{src:"images/letsmeat_atlas_4.png?1601324151475", id:"letsmeat_atlas_4"},
+		{src:"images/letsmeat_atlas_5.png?1601324151475", id:"letsmeat_atlas_5"},
+		{src:"images/letsmeat_atlas_6.png?1601324151476", id:"letsmeat_atlas_6"},
+		{src:"images/letsmeat_atlas_7.png?1601324151476", id:"letsmeat_atlas_7"},
+		{src:"images/letsmeat_atlas_8.png?1601324151476", id:"letsmeat_atlas_8"},
+		{src:"images/letsmeat_atlas_9.png?1601324151476", id:"letsmeat_atlas_9"},
+		{src:"images/letsmeat_atlas_10.png?1601324151476", id:"letsmeat_atlas_10"},
+		{src:"images/letsmeat_atlas_11.png?1601324151477", id:"letsmeat_atlas_11"}
 	],
 	preloads: []
 };
